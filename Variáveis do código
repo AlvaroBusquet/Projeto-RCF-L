@@ -1,0 +1,29 @@
+As variáveis presentes no código são:
+
+nside: parametro de resolução do vetor que constrói o mapa do céu
+tamanho: tamanho do mesmo vetor-mapa
+largura: parâmetro sigma presente na distribuição normal (gaussiana)
+raio: vetor contendo o raio de cada disco que forma o objeto-lente
+raio_fonte: raio do objeto-fonte de luz
+const_mult: constante multiplicativa para definir a intensidade da região pertencente ao objeto-lente
+const_mult2: constante multiplicativa para definir a intensidade da região pertencente ao objeto-fonte
+vetor_lente: primeiro vetor-mapa a ser construido, consiste do objeto-fonte e objeto-lente
+vetor_lente2: segundo vetor-mapa, contem a aproximação de primeira ordem da distribuição do objeto-lente
+vetor_lente3: terceiro vetor-mapa, contem o objeto-fonte e o efeito-anel
+graus: variável de leitura em graus da declinação do objeto-lente no céu
+minutos1: variável de leitura da em minutos da declinação do objeto-lente no céu
+segundos1: variável de leitura da em segundos da declinação do objeto-lente no céu
+horas: variável de leitura da em horas da ascenção reta do objeto-lente no céu
+minutos2: variável de leitura da em minutos da ascenção reta do objeto-lente no céu
+segundos2: variável de leitura da em segundos da ascenção reta do objeto-lente no céu
+new_graus: variável para conversão de faixa de medidas: -90 a 90 para 0 a 180
+pi: número irracional PI
+var1: variável de posição de declinação do objeto-lente em segundos de graus
+var2: variável de posição de ascenção reta do objeto-lente em segundos de horas
+theta: variável para conversão de segundos de graus para radianos
+phi: variável para conversão de segundos de horas para radianos
+centro: pixel onde se localiza o centro do objeto-lente
+vetor_origem: vetor de 2 dimensões com a posição angular do objeto-lente
+listadisco: vetor contendo vetores, cada qual com uma lista dos pixels contidos no disco formado
+qtd: vetor contendo o valor da quantidade de pixels contidos em cada disco
+raio_regiao: raio da região que contem a posição do objeto-fonte
