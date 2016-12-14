@@ -1,12 +1,12 @@
 As variáveis presentes no código são:
 
-nside: parametro de resolução do vetor que constrói o mapa do céu
+nside: parametro de resolução do vetor que constrói o mapa do céu, é utilizado o valor: 2^11
 tamanho: tamanho do mesmo vetor-mapa
 largura: parâmetro sigma presente na distribuição normal (gaussiana)
 raio: vetor contendo o raio de cada disco que forma a lente
 raio_fonte: raio da fonte de luz
-const_mult: constante multiplicativa para definir a intensidade da região pertencente à lente
-const_mult2: constante multiplicativa para definir a intensidade da região pertencente à fonte
+const_mult: constante multiplicativa para definir a intensidade da região pertencente à lente, relacionada à distribuição normal
+const_mult2: constante multiplicativa para definir a intensidade da região pertencente à fonte, relacionada à distribuição normal
 vetor_lente: primeiro vetor-mapa a ser construido, contem a fonte e lente
 vetor_lente2: segundo vetor-mapa, contem a aproximação de primeira ordem da distribuição da lente
 vetor_lente3: terceiro vetor-mapa, contem a fonte e o efeito-anel
